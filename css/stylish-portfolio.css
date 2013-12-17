@@ -5,6 +5,10 @@ body {
   height: 100%;
   width: 100%;
 }
+p {
+  font-size: 18px;
+  font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+}
 
 .vert-text {
   display: table-cell;
@@ -110,6 +114,7 @@ body {
   display: table;
   height: 100%;
   width: 100%;
+  font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
   position: relative;
   background: url(../img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -118,6 +123,9 @@ body {
   background-size: cover;
 }
 
+.header h1 {
+  font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+}
 /* Intro */
 
 .intro {
