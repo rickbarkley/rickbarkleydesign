@@ -207,8 +207,14 @@ i.service-icon {
 /* Footer */
 
 footer {
-  padding: 100px 0;
+  display: table;
+  width: 100%;
+  padding: 75px 0;
+
+
 }
+
+
 
 .top-scroll {
   margin-top: 50px;
@@ -235,7 +241,7 @@ i.scroll:hover {
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url(../img/paris.png) no-repeat center center scroll; 
   }
 
   .map {
