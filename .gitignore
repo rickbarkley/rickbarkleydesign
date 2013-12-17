@@ -1,0 +1,7 @@
+tmp
+log
+/tmp
+/log
+log/*
+tmp/*
+db/*
