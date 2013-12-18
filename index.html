@@ -227,6 +227,8 @@
     </footer>
     <!-- /Footer -->
 
+    
+
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -262,6 +264,102 @@
         });
       });
     </script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        var cont_left = $(".row").position().left;
+
+        $(".portfolio-item a img").hover(function() {
+
+            // hover in
+
+            $(this).parent().parent().css("z-index", 1);
+
+            $(this).animate({
+
+               height: "450",
+
+               width: "1200",
+
+               left: "-=25",
+             top: "-=25",
+
+             position: "absolute"
+
+            }, "fast");
+
+        }, function() {
+
+            // hover out
+
+            $(this).parent().parent().css("z-index", 0);
+
+            $(this).animate({
+
+                height: "400",
+
+                width: "600",
+
+                left: "+=25",
+              
+
+               top: "+=25",
+               position: "absolute"
+
+            }, "fast");
+
+        });
+
+ 
+
+        $(".portfolio-item").each(function(index) {
+
+            var left = (index * 160) + cont_left;
+
+            $(this).css("left", left + "px");
+
+        });
+
+    });
+
+    </script>
+
+    <style type="text/css">
+
+      
+
+       /*.portfolio-item {
+
+            position: fixed;
+
+            z-index: 0;
+
+        }*/
+
+        .end {
+
+            margin-right: 0;
+
+        }
+
+        .clear {
+
+            clear: both;
+
+        }
+
+        .portfolio-item a img {
+
+            position: absolute;
+
+            border: 0 solid #fff;
+
+        }
+
+    </style>
+
 
 
     <script>

@@ -191,21 +191,26 @@ i.service-icon {
 
 .portfolio-item {
   margin-bottom: 25px;
+  max-width: 1200px !important;
 }
 .portfolio-text {
-  height: 350px;
-
+  height: 400px;
   margin-bottom: 25px;
   vertical-align: middle;
 }
 
 .img-portfolio {
   margin: 0 auto;
-  height: 350px;
+  height: 400px;
   box-shadow: 0 0 5px 0;
 }
 
+.img-portfolio a img {
 
+  height: 400px;
+
+  position: absolute;
+}
 /* Call to Action */
 
 .call-to-action {
