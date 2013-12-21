@@ -199,6 +199,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 
 }
+.portfolio p {
+  font-size: 125%
+  }
 
 .portfolio-item {
   margin-bottom: 25px;
