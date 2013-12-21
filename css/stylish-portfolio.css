@@ -202,21 +202,18 @@ i.service-icon {
 .img-portfolio {
   margin: 0 auto;
   height: 400px;
+  width:400px;
   box-shadow: 0 0 5px 0;
 }
 
-.img-portfolio a img {
 
-  height: 400px;
-
-  position: absolute;
-}
 /* Call to Action */
 
 .call-to-action {
   color: #ffffff;
   background: #0a5175;
   padding: 50px 0;
+  width:100%;
 }
 
 .call-to-action .btn {
