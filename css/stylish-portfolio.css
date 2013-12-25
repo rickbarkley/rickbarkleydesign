@@ -187,22 +187,23 @@ i.service-icon {
 
 .portfolio {
   padding: 50px 0;
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: -moz-linear-gradient(top,  rgba(84,84,84,0) 1%, rgba(84,84,84,0.65) 50%, rgba(84,84,84,0.65) 51%, rgba(224,224,224,0.65) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(84,84,84,0)), color-stop(50%,rgba(84,84,84,0.65)), color-stop(51%,rgba(84,84,84,0.65)), color-stop(100%,rgba(224,224,224,0.65))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(84,84,84,0) 1%,rgba(84,84,84,0.65) 50%,rgba(84,84,84,0.65) 51%,rgba(224,224,224,0.65) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(84,84,84,0) 1%,rgba(84,84,84,0.65) 50%,rgba(84,84,84,0.65) 51%,rgba(224,224,224,0.65) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(84,84,84,0) 1%,rgba(84,84,84,0.65) 50%,rgba(84,84,84,0.65) 51%,rgba(224,224,224,0.65) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(84,84,84,0) 1%,rgba(84,84,84,0.65) 50%,rgba(84,84,84,0.65) 51%,rgba(224,224,224,0.65) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00545454', endColorstr='#a6e0e0e0',GradientType=0 ); /* IE6-8 */
-
+background: url(../img/background_web.PNG);
 }
 .portfolio p {
   font-size: 125%
   }
 
-.portfolio-item {
+.mydiv {
   margin-bottom: 25px;
+
+}
+
+.mydiv div {
+  color:#fff;
+  font-size: 150%;
+  padding:10px;
+  text-shadow: 3px 0px #000;
+
 }
 .portfolio-text {
   height: 400px;
@@ -214,7 +215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00545454', e
   margin: 0 auto;
   height: 400px;
   width:400px;
-  box-shadow: 0 4px 5px -3px #000;
+  box-shadow: 0 4px 5px 3px #000;
   border-radius: 4px;
 }
 
