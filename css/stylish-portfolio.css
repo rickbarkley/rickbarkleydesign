@@ -200,7 +200,13 @@ background: url(../img/background_web.PNG);
   }
 
 #port_img {
-  margin: 0px;
+  margin-bottom: 15px;
+}
+
+#port_img a:hover {
+  margin-top:-15px !important;
+  background:#000 !important;
+
 }
 
 #portfolio_text p {
