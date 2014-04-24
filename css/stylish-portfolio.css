@@ -194,25 +194,23 @@ background: url(../img/background_web.PNG);
   font-size: 125%
   }
 
-.mydiv {
-  margin-bottom: 25px;
-
+#port_img {
+  margin: 0px;
 }
 
-.mydiv div {
-  color:#fff;
-  font-size: 150%;
-  padding:10px;
-  text-shadow: 3px 0px #000;
-  text-align: center;
-
+#port_img p {
+  margin-top: -30px;
+  font-size: 140%;
+ /* background-image:url("overlay.png");
+  color:#fff;*/
 }
+/*
 .portfolio-text {
   height: 400px;
   margin-bottom: 25px;
   vertical-align: middle;
 }
-
+/*
 .img-portfolio {
   margin: 0 auto;
   height: 400px;
