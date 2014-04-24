@@ -143,14 +143,19 @@ p {
 /* Services */
 
 .services {
-  background-color: #B0DA75;
-  background-image: url(../img/pattern3.png);
+  background-color: #7fbbda;
+
   padding: 50px 0;
   color: #ffffff;
 }
 
 .service-item {
   margin-bottom: 15px;
+
+  
+}
+#service_text {
+  font-size: 150% !important;
 }
 
 i.service-icon {
@@ -198,11 +203,20 @@ background: url(../img/background_web.PNG);
   margin: 0px;
 }
 
-#port_img p {
-  margin-top: -30px;
-  font-size: 140%;
- /* background-image:url("overlay.png");
-  color:#fff;*/
+#portfolio_text p {
+  padding: 10px;
+}
+
+#portfolio_text {
+  position: absolute;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -27px;
+  font-size: 120%;
+  border-radius: 5px;
+background-image: url(../img/overlay.png);
+  color:#fff;
 }
 /*
 .portfolio-text {
