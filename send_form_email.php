@@ -6,9 +6,9 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "rick@architectware.com";
+    $email_to = "rick_barkley@me.com";
  
-    $email_subject = "Your email subject line";
+    $email_subject = "Rick Barkley Design Contact Form";
  
      
  
