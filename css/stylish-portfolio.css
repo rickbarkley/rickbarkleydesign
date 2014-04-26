@@ -306,3 +306,7 @@ i.scroll:hover {
 }
 
 }
+
+#contact {
+  background-image: url(../img/overlay.png);
+}
