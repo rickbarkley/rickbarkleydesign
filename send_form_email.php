@@ -144,7 +144,9 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+<p>Thank you for contacting us. We will be in touch with you very soon.</p>
+
+<h2><a href="http://www.architectware.com">Back to Home Page</a></h2>
  
  
  
